@@ -1,0 +1,30 @@
+Understand Asymptotic analysis and notation
+
+
+What is Asymptotic Analysis?
+Asymptotic Analysis is the big idea that handles the above issues in 
+analyzing algorithms. In Asymptotic Analysis, we evaluate the performance 
+of an algorithm in terms of input size (we don't measure the actual running time). 
+We calculate, how the time (or space) taken by an algorithm increases with the input size
+
+
+
+How to calculate Time Complexity.
+no of line execute = time complexity
+
+directly depend on input
+array = [20,4,5,31,49,10] 
+element - 6 
+inputs - 6
+
+Asymptotic Notations. -- big(o), theta, omega
+
+
+f(n) = 5n2square + 6n + 12
+
+variable,space = space complexity
+
+time complexity depend upon number of input
+
+data structure - javapoint
+
