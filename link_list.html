@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>linked list in javascript</title>
+
+    <script>
+        //implement in oops
+        class List{
+            constructor(data) {
+                this.head={
+                    value: data,
+                    next: null
+                }
+                this.tail = this.head;
+            }
+
+            // append node
+            appendNode(nodeData) {
+                let newNode = {
+                    value: nodeData,
+                    next: null
+                };
+                this.tail.next = newNode;
+                this.tail = newNode
+            }
+        }
+        let list = new List(100);
+        list.appendNode(300)
+        console.log(list)
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
